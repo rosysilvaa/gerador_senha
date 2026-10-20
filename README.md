@@ -1,7 +1,8 @@
-🔐 Gerador de Senhas
+##  🔐 Gerador de Senhas
+
 Aplicação web para geração de senhas aleatórias e seguras. O projeto conta com duas versões funcionais: uma com JavaScript (direto no navegador) e outra em Python (Flask).
 
-🛠️ Tecnologias
+## 🛠️ Tecnologias
 Frontend: HTML5, CSS3, JavaScript (ES6+)
 
 Backend: Python 3, Flask
