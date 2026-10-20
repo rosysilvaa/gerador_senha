@@ -1,4 +1,4 @@
-##🔐 Gerador de Senhas (Password Generator)
+#🔐 Gerador de Senhas (Password Generator)
 
 Este projeto é uma aplicação web simples e eficiente para geração de senhas seguras e aleatórias. O repositório contém duas implementações distintas:
 
@@ -6,7 +6,7 @@ Versão Web (Frontend): Construída com HTML5, CSS3 e JavaScript, funcionando di
 
 Versão Server-Side (Backend): Construída com Python e Flask, processando a lógica no servidor e renderizando a resposta na página web.
 
-##🛠️ Tecnologias Utilizadas
+#🛠️ Tecnologias Utilizadas
 
 HTML5: Estruturação da interface web.
 
@@ -16,7 +16,7 @@ JavaScript (ES6+): Lógica do gerador de senhas no lado do cliente (Client-side)
 
 Python 3: Linguagem de programação para a lógica de backend.
 
-##Flask: Microframework web em Python para criação das rotas e servidor web.
+# Flask: Microframework web em Python para criação das rotas e servidor web.
 
 1. Pré-requisitos
 
