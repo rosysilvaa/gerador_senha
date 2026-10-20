@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Gerador de Senha</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 100px;
+            background-color: #f4f4f9;
+        }
+        .container {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            display: inline-block;
+            box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        #resultado {
+            margin-top: 20px;
+            font-size: 20px;
+            font-family: monospace;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h2>Gerador de Senha</h2>
+        <button onclick="gerarSenha()">Gerar Senha</button>
+        <p id="resultado"></p>
+    </div>
+
+    <script>
+        function gerarSenha() {
+            const caracteres = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*()_+-=[]{}|;:,.<>?";
+            const comprimento = 12;
+            let senha = "";
+
+            for (let i = 0; i < comprimento; i++) {
+                const randomIndex = Math.floor(Math.random() * caracteres.length);
+                senha += caracteres[randomIndex];
+            }
+
+            document.getElementById("resultado").innerText = senha;
+        }
+    </script>
+
+</body>
+</html>
