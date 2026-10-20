@@ -1,70 +1,29 @@
-#🔐 Gerador de Senhas (Password Generator)
+🔐 Gerador de Senhas
+Aplicação web para geração de senhas aleatórias e seguras. O projeto conta com duas versões funcionais: uma com JavaScript (direto no navegador) e outra em Python (Flask).
 
-Este projeto é uma aplicação web simples e eficiente para geração de senhas seguras e aleatórias. O repositório contém duas implementações distintas:
+🛠️ Tecnologias
+Frontend: HTML5, CSS3, JavaScript (ES6+)
 
-Versão Web (Frontend): Construída com HTML5, CSS3 e JavaScript, funcionando diretamente no navegador sem necessidade de backend.
+Backend: Python 3, Flask
 
-Versão Server-Side (Backend): Construída com Python e Flask, processando a lógica no servidor e renderizando a resposta na página web.
+🚀 Como Executar
+🌐 Opção 1: Versão JavaScript (Sem instalação)
+Baixe o código do repositório.
 
-#🛠️ Tecnologias Utilizadas
+Dê um duplo clique no arquivo index.html para abrir diretamente no navegador.
 
-HTML5: Estruturação da interface web.
+🐍 Opção 2: Versão Python (Flask)
+Prepare o ambiente e instale o Flask:
 
-CSS3: Estilização e layout responsivo.
-
-JavaScript (ES6+): Lógica do gerador de senhas no lado do cliente (Client-side).
-
-Python 3: Linguagem de programação para a lógica de backend.
-
-# Flask: Microframework web em Python para criação das rotas e servidor web.
-
-1. Pré-requisitos
-
-Certifique-se de ter o Python 3.x instalado.
-
-2. Instalação de Dependências
-
-Crie e ative um ambiente virtual (opcional, mas recomendado) e instale o Flask:
-
-# Criar ambiente virtual
+Bash
 python -m venv .venv
+.venv\Scripts\activate      # Windows
+# source .venv/bin/activate # Linux/Mac
 
-# Ativar ambiente virtual (Windows)
-.venv\Scripts\activate
-
-# Ativar ambiente virtual (Linux/Mac)
-source .venv/bin/activate
-
-# Instalar o Flask
 pip install flask
+Execute o projeto:
+<img width="1366" height="768" alt="Captura de tela 2026-10-19 220657" src="https://github.com/user-attachments/assets/c311a0a6-93ef-4844-a1f2-91700ed85204" />
 
-
-3. Executando o Servidor
-
-Execute o arquivo principal (app.py):
-
+Bash
 python app.py
-
-
-4. Acessando no Navegador
-
-Abra o navegador e acesse o endereço fornecido no terminal:
-http://127.0.0.1:5000
-
-💡 Como Funciona a Geração de Senhas?
-
-O gerador sorteia caracteres aleatórios com base em um conjunto completo que inclui:
-
-Letras minúsculas: a-z
-
-Letras maiúsculas: A-Z
-
-Números: 0-9
-
-Símbolos/Caracteres especiais: !@#$%^&*()_+-=[]{}|;:,.<>?
-
-Por padrão, a senha gerada possui o comprimento de 12 caracteres, garantindo um alto nível de segurança contra ataques de força bruta.
-
-📄 Licença
-
-Este projeto está sob a licença MIT. Sinta-se livre para usar, modificar e distribuir.<img width="1366" height="768" alt="Captura de tela 2026-10-19 220657" src="https://github.com/user-attachments/assets/32a5c703-5f86-4b00-b37f-ce9a5c1a8f02" />
+Acesse no navegador: [http://127.0.0.1:5000](http://127.0.0.1:5000)
